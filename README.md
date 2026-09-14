@@ -64,25 +64,9 @@
 
 <br><br>
 
-<div align="center">
-
-<img src="https://activity-graph.herokuapp.com/graph?username=rish0000-dot&theme=react-dark&hide_border=true&bg_color=0D1117&color=F8BBD0&line=EF93C4&point=FF69B4&area=true&area_color=F8BBD0" alt="Activity Graph" width="90%"/>
-
-</div>
 
 <br>
 
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<!--START_SECTION:snake-->
-<img src="https://raw.githubusercontent.com/rish0000-dot/rish0000-dot/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" width="90%"/>
-<!--END_SECTION:snake-->
-
-</div>
-
-<sub>Add a GitHub Action using <a href="https://github.com/Platane/snk">Platane/snk</a> that runs on a schedule and pushes the generated SVG to an `output` branch — that's what fills the section above.</sub>
 
 <br>
 
