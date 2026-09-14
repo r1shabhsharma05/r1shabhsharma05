@@ -64,7 +64,9 @@
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rish0000-dot&theme=react-dark&hide_border=true&bg_color=0D1117&color=F8BBD0&line=EF93C4&point=FF69B4&area=true&area_color=F8BBD0" alt="Activity Graph" width="90%"/>
+<div align="center">
+
+<img src="https://activity-graph.herokuapp.com/graph?username=rish0000-dot&theme=react-dark&hide_border=true&bg_color=0D1117&color=F8BBD0&line=EF93C4&point=FF69B4&area=true&area_color=F8BBD0" alt="Activity Graph" width="90%"/>
 
 </div>
 
