@@ -57,10 +57,10 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=rish0000-dot&hide_border=true&background=0D1117&stroke=00F5D4&ring=00F5D4&fire=EF93C4&sideLabels=FFFFFF&currStreakLabel=EF93C4&sideNums=FFFFFF&dates=9CA3AF&card_width=500" alt="Rishabh's GitHub Streak" width="49%"/>
-<img src="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=rish0000-dot&show_icons=true&count_private=true&include_all_commits=true&hide_rank=false&hide_border=true&title_color=EF93C4&icon_color=F8BBD0&text_color=FFFFFF&bg_color=0D1117&card_width=500" alt="Rishabh's GitHub Stats" width="49%"/>
+<img src="https://streak-stats.demolab.com/?user=r1shabhsharma05&hide_border=true&background=0D1117&stroke=00F5D4&ring=00F5D4&fire=EF93C4&sideLabels=FFFFFF&currStreakLabel=EF93C4&sideNums=FFFFFF&dates=9CA3AF&card_width=500" alt="Rishabh's GitHub Streak" width="49%"/>
+<img src="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=r1shabhsharma05&show_icons=true&count_private=true&include_all_commits=true&hide_rank=false&hide_border=true&title_color=EF93C4&icon_color=F8BBD0&text_color=FFFFFF&bg_color=0D1117&card_width=500" alt="Rishabh's GitHub Stats" width="49%"/>
 
-<img src="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=rish0000-dot&layout=compact&hide_border=true&title_color=EF93C4&text_color=FFFFFF&bg_color=0D1117&card_width=500" alt="Top Languages" width="60%"/>
+<img src="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=r1shabhsharma05&layout=compact&hide_border=true&title_color=EF93C4&text_color=FFFFFF&bg_color=0D1117&card_width=500" alt="Top Languages" width="60%"/>
 
 <br><br>
 
