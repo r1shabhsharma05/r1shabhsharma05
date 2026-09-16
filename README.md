@@ -13,9 +13,9 @@
 
 <br>
 
-[![Followers](https://img.shields.io/github/followers/r1shabhsharma05?label=Followers&style=for-the-badge&color=EF93C4&labelColor=1a1a1a)](https://github.com/rish0000-dot?tab=followers)
-[![Stars](https://img.shields.io/github/stars/r1shabhsharma05?label=Stars&style=for-the-badge&color=F8BBD0&labelColor=1a1a1a)](https://github.com/rish0000-dot?tab=stars)
-[![Profile Views](https://komarev.com/ghpvc/?username=r1shabhsharma05&label=Profile+Views&style=for-the-badge&color=FF69B4&labelColor=1a1a1a)](https://github.com/rish0000-dot)
+[![Followers](https://img.shields.io/github/followers/r1shabhsharma05?label=Followers&style=for-the-badge&color=EF93C4&labelColor=1a1a1a)](https://github.com/r1shabhsharma05?tab=followers)
+[![Stars](https://img.shields.io/github/stars/r1shabhsharma05?label=Stars&style=for-the-badge&color=F8BBD0&labelColor=1a1a1a)](https://github.com/r1shabhsharma05?tab=stars)
+[![Profile Views](https://komarev.com/ghpvc/?username=r1shabhsharma05&label=Profile+Views&style=for-the-badge&color=FF69B4&labelColor=1a1a1a)](https://github.com/r1shabhsharma05)
 
 </div>
 
