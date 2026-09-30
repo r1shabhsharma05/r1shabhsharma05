@@ -87,4 +87,4 @@
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:EF93C4,50:F8BBD0,100:FF69B4&height=150&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=FFFFFF&animation=fadeIn" width="100%"/>
-</div>
+</div>  _
