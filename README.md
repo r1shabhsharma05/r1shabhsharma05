@@ -80,21 +80,17 @@ Building real-world projects with AI, ML, Backend and modern web technologies.
 <p align="left">
 
 🎓 <b>B.Tech Computer Science Engineering</b> student at
-<b>GLA University, Mathura, India.</b>
-
-<br><br>
+<b>GLA University, Mathura, India.</b> <br>
 
 🎯 Currently learning <b>DSA, Python, AI/ML, Backend Development, RAG and Cloud Technologies.</b>
-
-<br><br>
-
+<br>
 🚀 Building <b>real-world projects</b> and exploring scalable software solutions.
 
-<br><br>
+<br>
 
 💻 Solving problems on <b>LeetCode</b> and improving problem-solving skills.
 
-<br><br>
+<br>
 
 ⭐ Goal: Become an <b>AI/ML Engineer</b> and crack top MNCs.
 
@@ -114,13 +110,13 @@ Building real-world projects with AI, ML, Backend and modern web technologies.
 
 <img src="https://skillicons.dev/icons?i=python,java,cpp,c,js,ts" height="55"/>
 
-<br><br>
+<br>
 
 <!-- Frontend -->
 
 <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,vite" height="55"/>
 
-<br><br>
+<br>
 
 <!-- Backend -->
 
@@ -132,13 +128,13 @@ Building real-world projects with AI, ML, Backend and modern web technologies.
 
 <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,supabase" height="55"/>
 
-<br><br>
+<br>
 
 <!-- Cloud / DevOps -->
 
 <img src="https://skillicons.dev/icons?i=aws,docker,git,github,postman,linux" height="55"/>
 
-<br><br>
+<br>
 
 <!-- Tools -->
 
