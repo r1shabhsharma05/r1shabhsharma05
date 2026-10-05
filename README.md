@@ -1,14 +1,20 @@
 <!-- ========================= -->
-<!--        HEADER              -->
+<!--          HEADER           -->
 <!-- ========================= -->
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" height="180" />
+<img
+  src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"
+  height="150"
+  alt="coding animation"
+/>
 
 <h1>Hey 👋, I'm Rishabh Sharma</h1>
 
-<h3>💻 B.Tech CSE Student | AI/ML Enthusiast | Backend Developer | DSA Learner</h3>
+<h3>
+💻 B.Tech CSE Student | 🤖 AI/ML Enthusiast | ⚙️ Backend Developer | 🧠 DSA Learner
+</h3>
 
 <p>
 Building real-world projects with AI, ML, Backend and modern web technologies.
@@ -16,219 +22,134 @@ Building real-world projects with AI, ML, Backend and modern web technologies.
 
 </div>
 
----
+<br>
 
 <!-- ========================= -->
-<!--        SOCIALS             -->
+<!--          SOCIALS          -->
 <!-- ========================= -->
 
 <div align="center">
 
 <a href="https://github.com/r1shabhsharma05">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="30"/>
 </a>
 
 <a href="https://www.linkedin.com/in/rishab-sharma--/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="30"/>
 </a>
 
 <a href="https://x.com/Rishabh27474105">
-<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
+<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" height="30"/>
 </a>
 
 <a href="https://www.instagram.com/rishabh__brahman___/">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="30"/>
 </a>
 
 <a href="https://leetcode.com/u/rishabh_sharma__/">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="30"/>
 </a>
 
 </div>
 
 <br>
 
+<!-- ========================= -->
+<!--       PROFILE VIEWS       -->
+<!-- ========================= -->
+
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=r1shabhsharma05&label=Profile%20Views&color=blueviolet&style=for-the-badge" />
+<img
+  src="https://img.shields.io/badge/PROFILE%20VIEWS-10000-8A2BE2?style=for-the-badge&logo=github&logoColor=white"
+  alt="Profile Views"
+/>
 
 </div>
+
+<br>
 
 ---
 
 <!-- ========================= -->
-<!--        ABOUT ME            -->
+<!--          ABOUT ME         -->
 <!-- ========================= -->
 
 <h2 align="left">👨‍💻 About Me</h2>
 
 <p align="left">
 
-🎓 B.Tech Computer Science Engineering student at <b>GLA University, Mathura</b>.
+🎓 <b>B.Tech Computer Science Engineering</b> student at
+<b>GLA University, Mathura, India.</b>
 
 <br><br>
 
-🔭 Currently building <b>AI-powered and real-world software projects</b>.
+🎯 Currently learning <b>DSA, Python, AI/ML, Backend Development, RAG and Cloud Technologies.</b>
 
-<br>
+<br><br>
 
-🌱 Currently learning <b>Python, AI/ML, Backend Development, RAG, Cloud Technologies and DSA</b>.
+🚀 Building <b>real-world projects</b> and exploring scalable software solutions.
 
-<br>
+<br><br>
 
-💻 Solving <b>LeetCode</b> problems and improving problem-solving skills.
+💻 Solving problems on <b>LeetCode</b> and improving problem-solving skills.
 
-<br>
+<br><br>
 
-🚀 Interested in <b>Artificial Intelligence, Machine Learning, Backend Engineering and scalable systems</b>.
-
-<br>
-
-🎯 Career goal: Become a strong <b>AI/ML Engineer</b> and crack top MNCs.
+⭐ Goal: Become an <b>AI/ML Engineer</b> and crack top MNCs.
 
 </p>
 
 ---
 
 <!-- ========================= -->
-<!--        TECH STACK          -->
+<!--         TECH STACK        -->
 <!-- ========================= -->
 
 <h2 align="left">🛠️ Tech Stack</h2>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,python,cpp,c,html,css,js,typescript" height="55" />
+<!-- Languages -->
+
+<img src="https://skillicons.dev/icons?i=python,java,cpp,c,js,ts" height="55"/>
 
 <br><br>
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,vite,tailwind" height="55" />
+<!-- Frontend -->
+
+<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,vite" height="55"/>
 
 <br><br>
 
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,supabase,redis" height="55" />
+<!-- Backend -->
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi" height="55"/>
 
 <br><br>
 
-<img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux,postman,vscode" height="55" />
+<!-- Database -->
+
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,supabase" height="55"/>
+
+<br><br>
+
+<!-- Cloud / DevOps -->
+
+<img src="https://skillicons.dev/icons?i=aws,docker,git,github,postman,linux" height="55"/>
+
+<br><br>
+
+<!-- Tools -->
+
+<img src="https://skillicons.dev/icons?i=vscode,figma" height="55"/>
 
 </div>
 
 ---
 
-<!-- ========================= -->
-<!--        WHAT I USE          -->
-<!-- ========================= -->
-
-<h2 align="left">⚡ Languages & Tools</h2>
-
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="45" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="45" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="45" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="45" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="45" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="45" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="45" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="45" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="45" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="45" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="45" />
-<img width="12" />
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="45" />
+<h3>🚀 Always Learning. Always Building.</h3>
 
 </div>
-
----
-
-<!-- ========================= -->
-<!--        CURRENT FOCUS        -->
-<!-- ========================= -->
-
-<h2 align="left">🔥 Currently Learning</h2>
-
-<div align="center">
-
-| Area | Focus |
-|---|---|
-| 🧠 DSA | Data Structures, Algorithms, LeetCode |
-| 🐍 Python | Advanced Python, OOP, APIs |
-| 🤖 AI/ML | Machine Learning, XGBoost, NLP |
-| 🧩 RAG | Embeddings, Vector DB, LLM Applications |
-| ⚙️ Backend | FastAPI, Node.js, REST APIs |
-| ☁️ Cloud | AWS, Docker, Deployment |
-| 🗄️ Database | PostgreSQL, Supabase, MongoDB |
-
-</div>
-
----
-
-<!-- ========================= -->
-<!--        FEATURED PROJECT     -->
-<!-- ========================= -->
-
-<h2 align="left">🚀 Featured Project</h2>
-
-<div align="center">
-
-<h3>🚆 RailSync 2.0</h3>
-
-<p>
-<b>AI-Powered Automatic Block Planning & Digital Twin for Indian Railways</b>
-</p>
-
-<a href="https://github.com/rish0000-dot/RailSync">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=rish0000-dot&repo=RailSync&theme=dracula&hide_border=false" />
-</a>
-
-</div>
-
-<br>
-
-### 🔥 RailSync Tech
-
-```text
-Frontend
-├── React
-├── Vite
-└── Tailwind CSS
-
-Backend
-├── FastAPI
-└── SQLAlchemy
-
-Database
-└── Supabase PostgreSQL
-
-AI / ML
-├── XGBoost
-├── Weibull Survival Analysis
-└── SHAP Explainability
-
-Optimization
-└── Google OR-Tools CP-SAT
-
-Architecture
-└── Digital Twin + ML + Optimization
