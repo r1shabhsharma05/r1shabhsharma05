@@ -1,151 +1,68 @@
-<!-- ========================= -->
-<!--          HEADER           -->
-<!-- ========================= -->
-
-<div align="center">
-
-<img
-  src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"
-  height="150"
-  alt="coding animation"
-/>
-
-<h1>Hey 👋, I'm Rishabh Sharma</h1>
-
-<h3>
-💻 B.Tech CSE Student | 🤖 AI/ML Enthusiast | ⚙️ Backend Developer | 🧠 DSA Learner
-</h3>
-
-<p>
-Building real-world projects with AI, ML, Backend and modern web technologies.
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/hero?username=r1shabhsharma05&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F189544159%3Fu%3D631428f35013e52f3cc78db01988ab17aebae17b%26v%3D4" alt="r1shabhsharma05 hero visual" />
 </p>
 
-</div>
+<p align="center"><b>Rishabh Sharma</b> · Frontend or full-stack engineer<br/><sub>RADHEY RADHEY !!</sub></p>
 
-<br>
+<p align="center"><a href="https://github.com/r1shabhsharma05">GitHub</a> · <a href="https://rishabh-portfolio-zbes.onrender.com/">Website</a></p>
 
-<!-- ========================= -->
-<!--          SOCIALS          -->
-<!-- ========================= -->
+<details open>
+<summary><b>📌 Top projects</b></summary>
+<br/>
 
-<div align="center">
-
-<a href="https://github.com/r1shabhsharma05">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="30"/>
-</a>
-
-<a href="https://www.linkedin.com/in/rishab-sharma--/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="30"/>
-</a>
-
-<a href="https://x.com/Rishabh27474105">
-<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" height="30"/>
-</a>
-
-<a href="https://www.instagram.com/rishabh__brahman___/">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="30"/>
-</a>
-
-<a href="https://leetcode.com/u/rishabh_sharma__/">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" height="30"/>
-</a>
-
-</div>
-
-<br>
-
-<!-- ========================= -->
-<!--       PROFILE VIEWS       -->
-<!-- ========================= -->
-
-<div align="center">
-
-<img
-  src="https://img.shields.io/badge/PROFILE%20VIEWS-10000-8A2BE2?style=for-the-badge&logo=github&logoColor=white"
-  alt="Profile Views"
-/>
-
-</div>
-
-<br>
-
----
-
-<!-- ========================= -->
-<!--          ABOUT ME         -->
-<!-- ========================= -->
-
-<h2 align="left">👨‍💻 About Me</h2>
-
-<p align="left">
-
-🎓 <b>B.Tech Computer Science Engineering</b> student at
-<b>GLA University, Mathura, India.</b> <br>
-
-🎯 Currently learning <b>DSA, Python, AI/ML, Backend Development, RAG and Cloud Technologies.</b>
-<br>
-🚀 Building <b>real-world projects</b> and exploring scalable software solutions.
-
-<br>
-
-💻 Solving problems on <b>LeetCode</b> and improving problem-solving skills.
-
-<br>
-
-⭐ Goal: Become an <b>AI/ML Engineer</b> and crack top MNCs.
-
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/projects?username=r1shabhsharma05&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F189544159%3Fu%3D631428f35013e52f3cc78db01988ab17aebae17b%26v%3D4" alt="r1shabhsharma05 projects visual" />
 </p>
 
----
+- [Mini-Project](https://github.com/r1shabhsharma05/Mini-Project) · ★ 5
+- [dfgh](https://github.com/r1shabhsharma05/dfgh) · ★ 4
+- [Backend-assigment](https://github.com/r1shabhsharma05/Backend-assigment) · ★ 3
+- [J-2](https://github.com/r1shabhsharma05/J-2) · ★ 3
+- [12ai-](https://github.com/r1shabhsharma05/12ai-) · ★ 3
+- [adfg](https://github.com/r1shabhsharma05/adfg) · ★ 3
 
-<!-- ========================= -->
-<!--         TECH STACK        -->
-<!-- ========================= -->
+</details>
 
-<h2 align="left">🛠️ Tech Stack</h2>
+<details>
+<summary><b>🧰 Stack</b></summary>
+<br/>
 
-<div align="center">
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/stack?username=r1shabhsharma05&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F189544159%3Fu%3D631428f35013e52f3cc78db01988ab17aebae17b%26v%3D4" alt="r1shabhsharma05 stack visual" />
+</p>
 
-<!-- Languages -->
+</details>
 
-<img src="https://skillicons.dev/icons?i=python,java,cpp,c,js,ts" height="55"/>
+<details>
+<summary><b>📊 By the numbers</b></summary>
+<br/>
 
-<br>
+<b>34</b> public repositories, <b>67</b> stars, <b>692</b> contributions in the last year, a longest streak of <b>46</b> days and <b>10</b> followers.
 
-<!-- Frontend -->
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/stats?username=r1shabhsharma05&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F189544159%3Fu%3D631428f35013e52f3cc78db01988ab17aebae17b%26v%3D4" alt="r1shabhsharma05 stats visual" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,vite" height="55"/>
+</details>
 
-<br>
+<details>
+<summary><b>🟩 Activity</b></summary>
+<br/>
 
-<!-- Backend -->
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/heatmap?username=r1shabhsharma05&theme=neon" alt="r1shabhsharma05 contribution activity" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi" height="55"/>
+</details>
 
-<br><br>
+<details>
+<summary><b>👋 Say hello</b></summary>
+<br/>
 
-<!-- Database -->
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/social?username=r1shabhsharma05&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F189544159%3Fu%3D631428f35013e52f3cc78db01988ab17aebae17b%26v%3D4" alt="r1shabhsharma05 social visual" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,supabase" height="55"/>
+</details>
 
-<br>
-
-<!-- Cloud / DevOps -->
-
-<img src="https://skillicons.dev/icons?i=aws,docker,git,github,postman,linux" height="55"/>
-
-<br>
-
-<!-- Tools -->
-
-<img src="https://skillicons.dev/icons?i=vscode,figma" height="55"/>
-
-</div>
-
----
-
-<div align="center">
-
-<h3>🚀 Always Learning. Always Building.</h3>
-
-</div>
+<p align="center"><sub>Rishabh Sharma · Everything hub generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
