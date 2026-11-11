@@ -29,6 +29,9 @@ jobs:
       - name: Scrape real contribution data (no auth needed)
         run: python scripts/fetch_contributions.py
 
+      - name: Fetch LeetCode stats (no auth needed)
+        run: python scripts/fetch_leetcode.py
+
       - name: Render animated contribution graph SVG
         run: python scripts/generate_streak_svg.py r1shabhsharma05 contrib-heatmap.svg
 
@@ -42,4 +45,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg stats.svg cards/*.svg"
+          file_pattern: "data/contributions.json data/leetcode.json contrib-heatmap.svg stats.svg cards/*.svg"
