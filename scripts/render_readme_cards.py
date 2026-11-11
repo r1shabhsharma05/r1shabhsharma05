@@ -10,9 +10,10 @@ Every card is a standalone SVG shown through <img>, so it can only use what GitH
 allows there: inline CSS animations, SMIL and fonts embedded as data URIs (no JS,
 no external requests). Fonts are subset WOFFs in fonts/ (SIL OFL).
 
-Live numbers come from data/contributions.json (fetch_contributions.py). The
-LeetCode and profile-view numbers are set by hand below (verified live 2026-11-11;
-profile views as stated by Rishabh).
+Live numbers come from data/contributions.json (fetch_contributions.py) and
+data/leetcode.json (fetch_leetcode.py). The profile-view number is set by hand
+below (as stated by Rishabh); the LeetCode constants below it are only the
+fallback when data/leetcode.json is missing or stale.
 
 Run by .github/workflows/update-profile-art.yml after fetch_contributions.py.
 """
@@ -26,12 +27,16 @@ from html import escape
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, "..")
 DATA = os.path.join(ROOT, "data", "contributions.json")
+LEETCODE_DATA = os.path.join(ROOT, "data", "leetcode.json")
 OUT = os.path.join(ROOT, "cards")
 FONTS = os.path.join(ROOT, "fonts")
 PORTRAIT = os.path.join(ROOT, "rishabh-ascii.svg")
 
 # ---- hand-set numbers (verified 2026-11-11) ------------------------------------
+# LeetCode pair is the FALLBACK only — live values come from data/leetcode.json
+# (fetch_leetcode.py) when present; the blurb below is rebuilt from that file.
 LEETCODE_SOLVED = "212"   # LeetCode GraphQL, live: 88 Easy / 99 Medium / 25 Hard
+LEETCODE_BLURB = "88 Easy · 99 Medium · 25 Hard on LeetCode."
 PROFILE_VIEWS = "2K"      # as stated by Rishabh
 
 # ---- brand tokens -----------------------------------------------------------
@@ -397,6 +402,20 @@ def heatmap(data):
                              f'Contribution graph: {data["total_contributions"]:,} contributions in the last year'))
 
 
+def leetcode_stats():
+    """(solved, blurb) from data/leetcode.json, or the hand-set fallback."""
+    try:
+        with open(LEETCODE_DATA) as f:
+            d = json.load(f)
+        solved = str(int(d["solved"]))
+        blurb = (f"{d['easy']} Easy · {d['medium']} Medium · "
+                 f"{d['hard']} Hard on LeetCode.")
+        return solved, blurb
+    except Exception as e:  # missing/stale file: keep the last verified numbers
+        print(f"leetcode data unavailable, using fallback: {e}")
+        return LEETCODE_SOLVED, LEETCODE_BLURB
+
+
 def repo_stars():
     stars = {}
     try:
@@ -413,11 +432,12 @@ def repo_stars():
 
 if __name__ == "__main__":
     data = json.load(open(DATA))
+    lc_solved, lc_blurb = leetcode_stats()
     hero()
     tile("build", "BUILD", TECH, "#ffffff", "4", "products",
          "RailSync, SecureGaurd, SafeLife and Farmer Marketplace — shipped live.", 3.1, 0)
-    tile("brand", "LEETCODE", STUDIO, "#ffffff", LEETCODE_SOLVED, "solved",
-         "88 Easy · 99 Medium · 25 Hard on LeetCode.", 3.35, 1)
+    tile("brand", "LEETCODE", STUDIO, "#ffffff", lc_solved, "solved",
+         lc_blurb, 3.35, 1)
     tile("learn", "VIEWS", LEARN, INK, PROFILE_VIEWS, "profile views",
          "Views on this profile — thanks for stopping by.", 3.6, 2)
     activity(data)
