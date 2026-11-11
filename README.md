@@ -1,68 +1,17 @@
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/hero?username=r1shabhsharma05&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F189544159%3Fu%3D631428f35013e52f3cc78db01988ab17aebae17b%26v%3D4" alt="r1shabhsharma05 hero visual" />
-</p>
-
-<p align="center"><b>Rishabh Sharma</b> · Frontend or full-stack engineer<br/><sub>RADHEY RADHEY !!</sub></p>
-
-<p align="center"><a href="https://github.com/r1shabhsharma05">GitHub</a> · <a href="https://rishabh-portfolio-zbes.onrender.com/">Website</a></p>
-
-<details open>
-<summary><b>📌 Top projects</b></summary>
-<br/>
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/projects?username=r1shabhsharma05&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F189544159%3Fu%3D631428f35013e52f3cc78db01988ab17aebae17b%26v%3D4" alt="r1shabhsharma05 projects visual" />
-</p>
-
-- [Mini-Project](https://github.com/r1shabhsharma05/Mini-Project) · ★ 5
-- [dfgh](https://github.com/r1shabhsharma05/dfgh) · ★ 4
-- [Backend-assigment](https://github.com/r1shabhsharma05/Backend-assigment) · ★ 3
-- [J-2](https://github.com/r1shabhsharma05/J-2) · ★ 3
-- [12ai-](https://github.com/r1shabhsharma05/12ai-) · ★ 3
-- [adfg](https://github.com/r1shabhsharma05/adfg) · ★ 3
-
-</details>
-
-<details>
-<summary><b>🧰 Stack</b></summary>
-<br/>
+<!-- Every card is an animated SVG drawn by scripts/render_readme_cards.py and refreshed daily
+     by .github/workflows/update-profile-art.yml. Design: "Three Worlds" by Avi Vashishta,
+     copied with his permission for Rishabh Sharma's profile.
+     Spacing is baked into the SVGs, so keep this block free of blank lines and keep the cards in
+     a row on one line with no spaces between them. -->
+<div align="center">
+<a href="https://portfolio-hero-psi-lemon.vercel.app"><img src="./cards/hero.svg" width="100%" alt="Rishabh Sharma. Software Development Engineer. I build full-stack products, contribute to open source, and make tech Reels about it." /></a><br>
+<img src="./cards/heatmap.svg" width="100%" alt="Rishabh's contribution graph, in blue, refreshed daily" /><br>
+<img src="./cards/activity.svg" width="100%" alt="Contributions in the last 12 months, by month, with streak and busiest day" /><br>
+<a href="https://github.com/r1shabhsharma05/RailSync"><img src="./cards/build.svg" width="33.333%" alt="BUILD: 4 products" /></a><a href="https://leetcode.com/u/rishabh_sharma__/"><img src="./cards/brand.svg" width="33.333%" alt="LEETCODE: 212 solved" /></a><a href="https://github.com/r1shabhsharma05"><img src="./cards/learn.svg" width="33.333%" alt="VIEWS: 2K profile views" /></a><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./cards/title-coding-dark.svg" /><img src="./cards/title-coding-light.svg" width="100%" alt="What I'm coding" /></picture><br>
+<a href="https://github.com/r1shabhsharma05/RailSync"><img src="./cards/repo-RailSync.svg" width="33.333%" alt="RailSync" /></a><a href="https://github.com/r1shabhsharma05/SecureGaurd"><img src="./cards/repo-SecureGaurd.svg" width="33.333%" alt="SecureGaurd" /></a><a href="https://github.com/r1shabhsharma05/Farmer-Market-Place"><img src="./cards/repo-Farmer-Market-Place.svg" width="33.333%" alt="Farmer-Market-Place" /></a>
+</div>
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/stack?username=r1shabhsharma05&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F189544159%3Fu%3D631428f35013e52f3cc78db01988ab17aebae17b%26v%3D4" alt="r1shabhsharma05 stack visual" />
+<a href="https://portfolio-hero-psi-lemon.vercel.app">portfolio</a> &nbsp;/&nbsp; <a href="https://www.linkedin.com/in/rishabh-sharma-342575438/">linkedin</a> &nbsp;/&nbsp; <a href="https://www.instagram.com/cod.ehx">instagram</a> &nbsp;/&nbsp; <a href="https://www.youtube.com/@UntoldHx">youtube</a>
 </p>
-
-</details>
-
-<details>
-<summary><b>📊 By the numbers</b></summary>
-<br/>
-
-<b>34</b> public repositories, <b>67</b> stars, <b>692</b> contributions in the last year, a longest streak of <b>46</b> days and <b>10</b> followers.
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=r1shabhsharma05&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F189544159%3Fu%3D631428f35013e52f3cc78db01988ab17aebae17b%26v%3D4" alt="r1shabhsharma05 stats visual" />
-</p>
-
-</details>
-
-<details>
-<summary><b>🟩 Activity</b></summary>
-<br/>
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/heatmap?username=r1shabhsharma05&theme=neon" alt="r1shabhsharma05 contribution activity" />
-</p>
-
-</details>
-
-<details>
-<summary><b>👋 Say hello</b></summary>
-<br/>
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/social?username=r1shabhsharma05&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F189544159%3Fu%3D631428f35013e52f3cc78db01988ab17aebae17b%26v%3D4" alt="r1shabhsharma05 social visual" />
-</p>
-
-</details>
-
-<p align="center"><sub>Rishabh Sharma · Everything hub generated with <a href="https://www.gitskins.com/readme-generator"></a></sub></p>
