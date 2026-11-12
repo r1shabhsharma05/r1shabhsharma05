@@ -6,6 +6,7 @@ name: Update profile art
 "on":
   schedule:
     - cron: "17 6 * * *"   # ~06:17 UTC every day
+    - cron: "17 18 * * *"  # ~18:17 UTC every day (evening refresh)
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -32,6 +33,9 @@ jobs:
       - name: Fetch LeetCode stats (no auth needed)
         run: python scripts/fetch_leetcode.py
 
+      - name: Fetch PR counts (no auth needed)
+        run: python scripts/fetch_prs.py
+
       - name: Render animated contribution graph SVG
         run: python scripts/generate_streak_svg.py r1shabhsharma05 contrib-heatmap.svg
 
@@ -45,4 +49,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json data/leetcode.json contrib-heatmap.svg stats.svg cards/*.svg"
+          file_pattern: "data/contributions.json data/leetcode.json data/prs.json README.md contrib-heatmap.svg stats.svg cards/*.svg"
