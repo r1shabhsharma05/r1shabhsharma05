@@ -28,6 +28,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, "..")
 DATA = os.path.join(ROOT, "data", "contributions.json")
 LEETCODE_DATA = os.path.join(ROOT, "data", "leetcode.json")
+PRS_DATA = os.path.join(ROOT, "data", "prs.json")
 OUT = os.path.join(ROOT, "cards")
 FONTS = os.path.join(ROOT, "fonts")
 PORTRAIT = os.path.join(ROOT, "rishabh-ascii.svg")
@@ -35,8 +36,8 @@ PORTRAIT = os.path.join(ROOT, "rishabh-ascii.svg")
 # ---- hand-set numbers (verified 2026-11-11) ------------------------------------
 # LeetCode pair is the FALLBACK only — live values come from data/leetcode.json
 # (fetch_leetcode.py) when present; the blurb below is rebuilt from that file.
-LEETCODE_SOLVED = "212"   # LeetCode GraphQL, live: 88 Easy / 99 Medium / 25 Hard
-LEETCODE_BLURB = "88 Easy · 99 Medium · 25 Hard on LeetCode."
+LEETCODE_SOLVED = "213"   # LeetCode GraphQL, live: 89 Easy / 99 Medium / 25 Hard
+LEETCODE_BLURB = "89 Easy · 99 Medium · 25 Hard on LeetCode."
 PROFILE_VIEWS = "2K"      # as stated by Rishabh
 
 # ---- brand tokens -----------------------------------------------------------
@@ -258,7 +259,7 @@ def tile(name, label, color, on, num, word, blurb, delay, pos):
 
 
 # ---- 3 · activity (monthly bars) ------------------------------------------------
-def activity(data):
+def activity(data, pr_line=""):
     h = 340
     monthly = data["monthly"][-12:]
     best = max(monthly[:-1] or monthly, key=lambda m: m["total"])
@@ -307,6 +308,7 @@ def activity(data):
 <rect width="{W}" height="{h}" rx="14" fill="{PAPER}"/>
 <text class="f" {d(1.9)} x="40" y="58" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{MUTED}">THE LAST 12 MONTHS ON GITHUB</text>
 <text class="r" {d(2.0)} x="38" y="114" font-family="{SERIF}" font-size="52" fill="{INK}">{data["total_contributions"]:,} <tspan font-style="italic">contributions</tspan></text>
+{f'<text class="r" {d(2.1)} x="40" y="142" font-family="{MONO}" font-size="12" letter-spacing="1" fill="{MUTED}">{escape(pr_line)}</text>' if pr_line else ""}
 {''.join(bars)}
 {''.join(side)}
 """
@@ -416,6 +418,37 @@ def leetcode_stats():
         return LEETCODE_SOLVED, LEETCODE_BLURB
 
 
+def prs_line():
+    """'22 PULL REQUESTS MERGED · 8 OPEN' from data/prs.json, or '' when unavailable."""
+    try:
+        with open(PRS_DATA) as f:
+            d = json.load(f)
+        return (f"{int(d['merged_external'])} PULL REQUESTS MERGED · "
+                f"{int(d['open_external'])} OPEN")
+    except Exception as e:  # missing/stale file: activity card renders without the line
+        print(f"prs data unavailable, skipping PR line: {e}")
+        return ""
+
+
+def sync_readme_alt(lc_solved):
+    """Keep README.md's LEETCODE alt text in step with the rendered tile.
+
+    The tile itself is an SVG that the workflow re-renders daily, but the alt
+    text lives in README.md and never changed — it froze at '212 solved' while
+    the tile moved on. Rewrite just that one attribute, nothing else.
+    """
+    path = os.path.join(ROOT, "README.md")
+    try:
+        text = open(path).read()
+    except FileNotFoundError:
+        return
+    new = re.sub(r'alt="LEETCODE: \d+ solved"',
+                 f'alt="LEETCODE: {lc_solved} solved"', text)
+    if new != text:
+        open(path, "w").write(new)
+        print(f"README.md alt updated to LEETCODE: {lc_solved} solved")
+
+
 def repo_stars():
     stars = {}
     try:
@@ -440,7 +473,8 @@ if __name__ == "__main__":
          lc_blurb, 3.35, 1)
     tile("learn", "VIEWS", LEARN, INK, PROFILE_VIEWS, "profile views",
          "Views on this profile — thanks for stopping by.", 3.6, 2)
-    activity(data)
+    sync_readme_alt(lc_solved)
+    activity(data, prs_line())
     stars = repo_stars()
     for i, (name, desc, lang, color) in enumerate(REPOS):
         repo_card(i, name, desc, lang, color, stars.get(name, 0))
