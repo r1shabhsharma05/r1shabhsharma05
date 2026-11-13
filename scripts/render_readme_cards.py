@@ -262,7 +262,7 @@ def tile(name, label, color, on, num, word, blurb, delay, pos):
 def activity(data, pr_line=""):
     h = 340
     monthly = data["monthly"][-12:]
-    best = max(monthly[:-1] or monthly, key=lambda m: m["total"])
+    best = max(monthly, key=lambda m: m["total"])
     top = best["total"]
     x0, x1, base, maxh, gap = 40, 600, 292, 140, 10
     bw = (x1 - x0 - gap * (len(monthly) - 1)) / len(monthly)
